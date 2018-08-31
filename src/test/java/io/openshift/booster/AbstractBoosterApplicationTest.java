@@ -35,7 +35,7 @@ public abstract class AbstractBoosterApplicationTest {
            .body("content", is(String.format(Greeting.FORMAT, "World")));
     }
 
-    //@Test
+    77@Test
     public void testGreetingEndpointWithNameParameter() {
         given()
            .baseUri(baseURI())
